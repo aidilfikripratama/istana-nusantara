@@ -1,0 +1,24 @@
+ISTANA NUSANTARA - VERSI HP (Android & iPhone)
+
+ISI FOLDER
+  index.html            game
+  manifest.webmanifest  data aplikasi (nama, ikon)
+  sw.js                 agar bisa dimainkan offline
+  icons/                ikon aplikasi
+
+CARA MEMASANG DI HP (perlu di-hosting sekali, gratis)
+1. Buka https://app.netlify.com/drop lalu seret SELURUH isi folder ini ke halamannya.
+   (Alternatif: GitHub Pages atau Cloudflare Pages.)
+2. Anda mendapat alamat https://xxxx.netlify.app. Buka alamat itu di HP.
+3. Android (Chrome): menu titik tiga > "Pasang aplikasi" / "Tambahkan ke layar utama".
+   iPhone (Safari): ketuk ikon Bagikan > "Tambahkan ke Layar Utama".
+4. Setelah terpasang, ikon "Istana" muncul di layar utama dan game tampil layar penuh.
+
+PROGRES
+- Tersimpan otomatis tiap keputusan di perangkat tersebut. Tutup aplikasi lalu buka lagi: pilih LANJUTKAN.
+- Progres terikat pada perangkat dan alamat situs. Pindah HP atau ganti alamat: pakai Menu > Cadangkan, lalu Pulihkan di perangkat lain.
+- Jika sedang di tengah satu kejadian, saat dibuka lagi kejadian itu diundi ulang.
+- Di iPhone, pasang ke Layar Utama agar data tidak dibersihkan Safari.
+
+PEMBARUAN
+- Jika Anda mengganti index.html, ubah nama cache di sw.js (istana-nusantara-v1 menjadi v2) lalu unggah ulang.
